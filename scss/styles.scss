@@ -1,0 +1,146 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+$fHeader: 'IBM Plex Sans Thai';
+$fConsejo: 'Josefin Sans';
+$fTimer: 'Jeju Gothic';
+
+$colStart: #4E8FCA;
+
+// @import './modules/footer';
+html{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    background-color: #50A9FB;
+    header {
+        width: 100%;
+        display: flex;
+        background-color: transparent;
+        .menu__logo{
+            height: 100%;
+            display: inline-block;
+            width: 65%;
+            color: white;
+            h5{
+                font-family: $fHeader;
+                font-weight: 100;
+                font-size: 16px;
+                display: inline-block;
+                margin-left: 10px;
+
+            }
+            img {
+                margin-left: 15px;
+                height: 3.6em;
+            }
+        }
+        .menu__opciones{
+            display: flex;
+            width: 35%;
+            height: 3.6em;
+            background-color: #3D80BE;
+            color: white;
+            justify-content: space-around;
+            align-content: center;
+            
+            p{
+                font-family: $fHeader, sans-serif;
+                display: inline;
+                align-self: center;
+            }
+        }
+    }
+
+    .consejo{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+        p{
+            margin: 0 0;
+            padding-left: 20%;
+            padding-right: 20%;
+            color: white;
+            font-family: $fConsejo, sans-serif;
+            font-size: 28px;
+        }
+    }
+
+    .center{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60vh;
+        .alarm{
+            margin: 7vh 6.5vw;
+            border-radius: 50px;
+            background-color: #3D80BE;
+            .alarm-types{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                margin-top: 45px;
+                width: 100%;
+                height: 5vh;
+                .alarm_type{
+                    display: inline-block;
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 7px;
+                    background-color: transparent;
+                    p{
+                        font-size: 18px;
+                        color: white;
+                        font-family: $fHeader;
+                    }
+                }
+            }
+
+            .timer{
+                text-align: center;
+                margin-top: 30px;
+                p{
+                    font-family: $fTimer, sans-serif;
+                    font-size: 150px;
+                    color: white;
+                    margin: 0 0;
+                }
+            }
+
+            .start{
+                margin: 0 35%;
+                margin-top: 15px;
+                background-color: $colStart;
+                text-align: center;
+                height: 70px;
+                border-radius: 10px;
+                box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.42);
+                transition: transform 1s;
+                p{
+                    display: inline-block;
+                    color: white;
+                    font-size: 32px;
+                    font-family: $fConsejo;
+                    margin: 19px 0;
+                }
+            }
+
+            .saltar{
+                width: 70px;
+                height: 70px;
+                margin: 0 75%;
+                margin-top: -60px;
+                p{
+                    display: inline-block;
+                    color: white;
+                    font-size: 25px;
+                    font-family: $fConsejo;
+                    margin: 0 0;
+                }
+            }
+        }
+    }
+}
+
+

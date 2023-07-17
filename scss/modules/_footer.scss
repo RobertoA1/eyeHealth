@@ -1,0 +1,20 @@
+$fTimer: 'Jeju Gothic';
+body{
+    footer{
+        display: flex;
+        position: relative;
+        background-color: #3D80BE;
+        height: 7vh;
+        width: 35%;
+        text-align: center;
+        bottom: 0px;
+        p{
+            display: inline-block;
+            color: white;
+            font-family: $fTimer, sans-serif;
+            font-size: 28px;
+            margin: 0 0;
+            margin-left: 40px;
+        }
+    }
+}

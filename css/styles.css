@@ -1,0 +1,159 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #50A9FB;
+}
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+}
+body header .menu__logo {
+  height: 100%;
+  display: inline-block;
+  width: 65%;
+  color: white;
+}
+body header .menu__logo h5 {
+  font-family: "IBM Plex Sans Thai";
+  font-weight: 100;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 10px;
+}
+body header .menu__logo img {
+  margin-left: 15px;
+  height: 3.6em;
+}
+body header .menu__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  height: 3.6em;
+  background-color: #3D80BE;
+  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+body header .menu__opciones p {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+body .consejo {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+body .consejo p {
+  margin: 0 0;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+}
+body .center {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: 60vh;
+  grid-template-rows: 60vh;
+}
+body .center > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+body .center > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+body .center .alarm {
+  margin: 7vh 6.5vw;
+  border-radius: 50px;
+  background-color: #3D80BE;
+}
+body .center .alarm .alarm-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 45px;
+  width: 100%;
+  height: 5vh;
+}
+body .center .alarm .alarm-types .alarm_type {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: transparent;
+}
+body .center .alarm .alarm-types .alarm_type p {
+  font-size: 18px;
+  color: white;
+  font-family: "IBM Plex Sans Thai";
+}
+body .center .alarm .timer {
+  text-align: center;
+  margin-top: 30px;
+}
+body .center .alarm .timer p {
+  font-family: "Jeju Gothic", sans-serif;
+  font-size: 150px;
+  color: white;
+  margin: 0 0;
+}
+body .center .alarm .start {
+  margin: 0 35%;
+  margin-top: 15px;
+  background-color: #4E8FCA;
+  text-align: center;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.42);
+          box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.42);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+body .center .alarm .start p {
+  display: inline-block;
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans";
+  margin: 19px 0;
+}
+body .center .alarm .saltar {
+  width: 70px;
+  height: 70px;
+  margin: 0 75%;
+  margin-top: -60px;
+}
+body .center .alarm .saltar p {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-family: "Josefin Sans";
+  margin: 0 0;
+}
