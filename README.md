@@ -6,7 +6,7 @@ EyeHealth Alarm es una aplicación de alarma diseñada para ayudar a los usuario
 
 **Instalación**
 
-La aplicación se puede descargar desde el repositorio de GitHub. Descarga la última versión y descomprime los archivos en una carpeta de tu elección.
+La aplicación se puede descargar desde el repositorio de GitHub. Descarga la ultima version, ve a la carpeta desde la consola y ejecuta: "npm start".
 
 **Autores:**
 
