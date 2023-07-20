@@ -44,7 +44,7 @@ body header .menu__opciones {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-body header .menu__opciones p {
+body header .menu__opciones p link {
   font-family: "IBM Plex Sans Thai", sans-serif;
   display: inline;
   -ms-flex-item-align: center;
@@ -65,24 +65,13 @@ body .consejo p {
   font-size: 28px;
 }
 body .center {
-  display: -ms-grid;
-  display: grid;
   width: 100%;
   height: 100%;
-  -ms-grid-columns: 50% 50%;
-  grid-template-columns: 50% 50%;
-  -ms-grid-rows: 60vh;
-  grid-template-rows: 60vh;
-}
-body .center > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-body .center > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  margin: 0 auto;
 }
 body .center .alarm {
+  width: 700px;
+  height: 400px;
   margin: 7vh 6.5vw;
   border-radius: 50px;
   background-color: #3D80BE;
@@ -97,12 +86,12 @@ body .center .alarm .alarm-types {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-top: 45px;
   width: 100%;
   height: 5vh;
 }
 body .center .alarm .alarm-types .alarm_type {
   display: inline-block;
+  margin-top: 40px;
   width: 150px;
   height: 50px;
   border-radius: 7px;
@@ -115,7 +104,7 @@ body .center .alarm .alarm-types .alarm_type p {
 }
 body .center .alarm .timer {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 body .center .alarm .timer p {
   font-family: "Jeju Gothic", sans-serif;

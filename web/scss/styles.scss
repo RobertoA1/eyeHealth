@@ -43,7 +43,7 @@ body {
             justify-content: space-around;
             align-content: center;
             
-            p{
+            p link{
                 font-family: $fHeader, sans-serif;
                 display: inline;
                 align-self: center;
@@ -66,12 +66,15 @@ body {
     }
 
     .center{
-        display: grid;
+        //display: grid;
         width: 100%;
         height: 100%;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 60vh;
+        margin: 0 auto;
+        //grid-template-columns: 50% 50%;
+        // grid-template-rows: 60vh;
         .alarm{
+            width: 700px;
+            height: 400px;
             margin: 7vh 6.5vw;
             border-radius: 50px;
             background-color: #3D80BE;
@@ -80,11 +83,11 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 text-align: center;
-                margin-top: 45px;
                 width: 100%;
                 height: 5vh;
                 .alarm_type{
                     display: inline-block;
+                    margin-top: 40px;
                     width: 150px;
                     height: 50px;
                     border-radius: 7px;
@@ -99,7 +102,7 @@ body {
 
             .timer{
                 text-align: center;
-                margin-top: 30px;
+                margin-top: 60px;
                 p{
                     font-family: $fTimer, sans-serif;
                     font-size: 150px;

@@ -1,2 +1,8 @@
 # Archivo del preprocesador SASS
 prepros.config
+
+# Modulos importados de node
+node_modules
+
+# Key sessions y su timestamp
+sessions.json
